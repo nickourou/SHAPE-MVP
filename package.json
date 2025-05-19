@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": ["client", "api"],
+  "scripts": {
+    "dev": "npm run dev --workspace=client",
+    "build": "npm run build --workspace=client",
+    "start": "vercel dev"
+  }
+}
